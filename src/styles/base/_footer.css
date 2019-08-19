@@ -1,0 +1,64 @@
+.home-footer{
+    background:rgb(73, 72, 122);
+    text-align: center;
+    color: white;
+    font-family: 'tajawal';
+    overflow-x: hidden;
+    padding: 2px;
+}
+.rectangle2 {
+    height: 2px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    top:-50px;;
+  }
+.mobiles{
+    margin-left: 10rem
+}
+.logos{
+    margin-right: 6rem
+}
+.logos>hr{
+    margin-bottom: 3rem
+}
+.home-footer >hr{
+    border: 1px solid rgb(34, 42, 73);;
+}
+.home-footer >h4{
+        margin: 2rem 0;
+}
+.copy-right{
+    
+    background: rgba(81, 59, 97, 0.658);
+    padding: 2rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.contact-information{
+    margin: 1rem;
+    text-align:center;
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-information >hr{
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #464b5e;
+    width: 15%
+}
+.logos .fb-ic{
+    color: white
+}
+.logos .yt-ic{
+    color: white;
+}
+
+@media only screen and (max-width: 470px){
+   .contact-information .mobiles{
+        margin-left: 1rem
+    }
+    .contact-information .logos{
+        margin-right: 1rem
+    }
+}

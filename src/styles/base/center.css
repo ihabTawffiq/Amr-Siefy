@@ -1,0 +1,296 @@
+
+  body {
+    background-color: #eee;
+    font-family: 'Tajawal';
+    transform: translate3d(0, 0, 0);
+    background: rgb(64, 53, 102) ;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1);
+  }
+
+
+  .rectangle {
+    height: 8px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    top:-50px;;
+  }
+  #tit
+  {
+      color: #fff;
+      font-size: 60px;
+      box-shadow: 4px 4px 20px rgba(38, 4, 48, 0.61);
+      padding: 10px;
+  }
+#tit:hover{
+    color: #66a3b4;
+    transform: rotatey(10deg) translatex(0.5px) translatey(0px);
+    transition: all 0.5s;
+    font-size: 60px;
+}
+
+
+
+
+  .baner-content {
+    padding-top: 10vh;
+    text-align: center;
+    background-image: url(../../components/img/bg-01.png);
+  }
+  #cont2{
+      color: #ecf0f1;
+      display: inline;
+      margin: 20px;
+      padding: 30px;
+  }
+  .container {
+    width: 100%;
+    max-width: 960px;
+    min-height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+
+
+
+  #frw, #ok{
+     width: 160px;
+     margin-right: 100px;
+     margin-left: 100px;
+  }
+  #insh{
+    width: 160px;
+    margin-right: 100px;
+    margin-left: 90px;
+    left: -1%;
+  }
+  #mstqbl{
+    width: 190px;
+   color: #000000;
+ }
+ 
+
+  .element-card {
+    position: relative;
+    width: 150px;
+    height: 130px;
+    transform-style: preserve-3d;
+    transform: rotatey(0deg) translatex(0px) translatey(0px);
+    transition: all 0.6s ;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.61);
+    margin: 20px;
+    cursor: pointer;
+  
+  }
+  .element-card:hover {
+    transform: rotatey(45deg) translatex(0px) translatey(0px);
+  }
+  .element-card.open {
+    width: 200px;
+    height: 260px;
+    transform: rotatey(-180deg) translatex(0px) translatey(0px);
+  }
+  .element-card .front-facing {
+    transform: rotateY(0deg) translateZ(2px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 5px;
+  }
+
+
+  
+  #elmasry .front-facing{
+    background-color: #562c4a;
+    border: 1px #fffdff solid;
+    color: #fff;
+  }
+  #elmasry .back-facing{
+    background-color: #562c4a;
+    color: #fff;
+  }
+
+
+
+  #frw .front-facing{
+    background-color: #ffcf7b;
+    border: 1px #fffdff solid;
+    color: #fff;
+  }
+  #frw .back-facing{
+    background-color: #ffcf7b;
+    color: #fff;
+  }
+
+
+  #mjd .front-facing{
+      background: #23527c;
+      border: 1px #fffdff solid;
+      color: #fff;
+  }
+  #mjd .back-facing{
+    background: #23527c;
+    border: 1px #fffdff solid;
+    color: #fff;
+  }
+
+
+
+  #mstqbl .front-facing{
+    background-color: #eadbca;
+    border: 1px #fffdff solid;
+    color: rgb(0, 0, 0);
+  }
+  #mstqbl .front-facing .abr,#mstqbl
+.front-facing .title,#mstqbl
+.front-facing .atomic-number,#mstqbl
+.front-facing .atomic-mass{
+    color: #000000;
+}
+
+#mstqbl .back-facing{
+    background-color: #eadbca;
+    border: 1px #fffdff solid;
+}
+
+
+#mstqbl .back-facing p {
+    color: #000000;
+}
+
+#insh .front-facing{
+    background: #503c66;
+    border: 1px #fffdff solid;
+    color: #fff;
+}
+
+
+#insh .back-facing{
+    background: #503c66;
+    border: 1px #fffdff solid;
+    color: #fff;
+
+}
+#vip .front-facing{
+  background: #09967e;
+  border: 1px #fffdff solid;
+  color: #fff;
+}
+#vip .back-facing{
+    background: #09967e;
+    border: 1px #fffdff solid;
+    color: #fff;
+
+}
+
+#elmasry2 .front-facing{
+    background: #000000;
+    border: 1px #fffdff solid;
+    color: #fff;
+
+}
+#elmasry2 .back-facing{
+    background: #000000;
+    border: 1px #fffdff solid;
+    color: #fff;
+}
+
+#ok .front-facing{
+    background: #094c42;
+    border: 1px #fffdff solid;
+    color: #fff;
+
+}
+
+#ok .back-facing{
+    background: #094c42;
+    border: 1px #fffdff solid;
+    color: #fff;
+}
+#tera .front-facing, #tera .back-facing {
+    background: #03243d;
+    border: 1px #fffdff solid;
+    color: #fff;
+}
+
+
+
+  .element-card .front-facing .abr {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    font-size: 42px;
+    margin: -35px 0 0 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  .element-card .front-facing .title {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  .element-card .front-facing .atomic-number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .element-card .front-facing .atomic-mass {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #ffffff;
+  }
+  .element-card .back-facing {
+    transform: rotateY(180deg) translateZ(0px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .element-card .back-facing p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .element-card .back-facing a.btn {
+    display: inline-block;
+    background-color: white;
+    padding: 5px 15px;
+    margin: 20px 0 0 0;
+    color: #eee;
+    background-color: #3498db;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  .element-card .back-facing a.btn:hover, .element-card .back-facing a.btn:focus {
+    color: #fff;
+    background-color: #2980b9;
+  }
+  
